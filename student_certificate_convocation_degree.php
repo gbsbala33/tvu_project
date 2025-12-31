@@ -4,6 +4,7 @@ include("includes/session_include.php");
 include("includes/enc_conn_include.php");
 include("includes/header_validate_code.php");
 
+// THIS IS CERTIFICATE FILES
 
 /*	ACADEMIC YEAR	*/
 $academic_year_data = explode("-", $_SESSION["academic_year"]);
